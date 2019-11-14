@@ -1,0 +1,14 @@
+network:
+version:2
+renderer:networkd
+ethernets:
+enp0s25:
+dhcp4:yes
+
+wlp2s0:
+dhcp4:yes
+dhcp6:no
+addresses:[192.168.56.110/24]
+gateway4;192.168.1.1
+nameservers:
+addresses:[8.8.8.8,8.8.4.4]
